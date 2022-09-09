@@ -5,11 +5,12 @@
 /**
  * main - assign a random number to the variable n
  * execute and print the last digit of the number stored in the variable n
-  * Return:  O 
+ * Return:  O 
 */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("Last digit of %d is %d ", n, n % 10);
