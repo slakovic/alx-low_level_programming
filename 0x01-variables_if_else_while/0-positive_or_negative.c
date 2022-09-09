@@ -4,27 +4,30 @@
 
 
 /**
- * main - Entry point
+ * main - print if the value of number is positive, zero, or negative
  *
- * Description: print value of n satus; zero, positive or negative
- *
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative"
  * Return: Always 0 (Success)
 */
-
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
-	/* my code */
+		/* your code goes there */
 	if (n > 0)
+	{
 		printf("%i is positive\n", n);
+	}
 	else if (n == 0)
+	{
 		print f("%i is zero\n", n);
+	}
 	else if (n < 0)
+	{
 		print("%i is negative\n", n);
-
+	}
 	return (0);
 }
