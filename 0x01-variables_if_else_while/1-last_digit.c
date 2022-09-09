@@ -19,7 +19,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/* my code */
-	digit = n % 10; /* gets last digit */
+	1 = n % 10; /* gets last digit */
 
 	if (1 > 5)
 	{
