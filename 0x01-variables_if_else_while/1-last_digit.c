@@ -5,7 +5,7 @@
 /**
  * main - assign a random number to the variable n
  * execute and print the last digit of the number stored in the variable n
- * Return:  O 
+ * Return: O 
 */
 int main(void)
 {
@@ -22,4 +22,3 @@ int main(void)
 		printf("and is less than 6 and not 0\n");
 	return (0);
 }
-
