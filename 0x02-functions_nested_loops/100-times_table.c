@@ -8,9 +8,11 @@
 
 void print_times_table(int n)
 	
-	int prod, mult, num;
+	int prod;
+	int mult;
+	int num;
 
-	n <= 15 && n >= 0
+	(n <= 15 && n >= 0)
 	{
 		for (num = 0; num <= n; ++num)
 		{
