@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * puts2 - functions that prints every other character of a string
+ * puts2 - prints every other character of a string
  *
- * @s: string parameter input
+ * @str: string parameter input
  *
  * Return: Nothing
 */
