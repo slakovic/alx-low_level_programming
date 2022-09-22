@@ -7,6 +7,7 @@
  * int prototypes()
  * char prototypes()
 */
+
 char *add_strings(char *1, char *n2, char *r, int size_r);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
