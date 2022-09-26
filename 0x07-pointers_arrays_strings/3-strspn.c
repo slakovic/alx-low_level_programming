@@ -18,7 +18,7 @@ unsigned int _strspn(char *s, char *accept)
 		f = 1; /*flag status*/
 		while (accept[j] != '\0')
 		{
-			if (s[i] == accept [j])
+			if (s[i] == accept[j])
 			{
 				f = 0; /*success*/
 				break;
