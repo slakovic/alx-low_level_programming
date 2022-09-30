@@ -11,9 +11,14 @@
  * Return: Always 0 (Success)
 */
 
-int main(int argc, char **argv) /**all arguments be printed*/
+int main(int argc, char *argv[])
 {
-	while (argc--)
-		printf("%s\n", *argv++);
-	exit(EXIT_SUCCESS);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+
+	return (0);
 }
